@@ -12,8 +12,8 @@ const ContactForm = () => {
 
     alert(
       `Message sent successfully! \n
+      Name: ${form.name} \n
       Email: ${form.email} \n
-      Password: ${form.email} \n
       Password: ${form.password}`
     );
 
